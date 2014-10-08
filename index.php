@@ -21,6 +21,11 @@
 	</script>
     </head>
     <body>
-
+		<div id="center">
+			<div class="header">
+			</div>
+			<div class="main">
+			</div>
+		</div>
     </body>
 </html>

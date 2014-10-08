@@ -1,0 +1,9 @@
+body{
+	font-family:'open sans','arial';
+	margin:0 auto;
+}
+
+#center{
+	margin: 0 auto;
+	width: 800px;
+}
