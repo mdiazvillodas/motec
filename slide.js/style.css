@@ -1,0 +1,16 @@
+/* Sample 1*/
+#box1{
+	position:absolute;
+}
+#box1 span{
+	display:block;
+	float:left;
+}
+
+
+.mask1{
+	position:relative;
+	width:480px;
+	height:180px;
+	overflow:hidden;
+}
