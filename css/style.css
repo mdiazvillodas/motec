@@ -145,4 +145,62 @@ body{
 #center .main{
 	float: left;
 	width:800px;
+	background: white;
 }
+
+.main #quicklinks {
+    background-color: #cecece;
+    background-image: url("../img/quicklinks-bg.png");
+    color: #000;
+    float: left;
+    margin: 12px 9px 0 12px;
+    width: 210px;
+}
+
+.main #quicklinks h3 {
+    background-image: url("../img/quicklinks-header-bg.png");
+    background-repeat: no-repeat;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 10px;
+    height: 23px;
+    width: 210px;
+    margin: 0;
+}
+
+.main #quicklinks h3 span {
+    font-size: 12px;
+    left: 30px;
+    line-height: 30px;
+    position: relative;
+    top: -4px;
+}
+
+#quicklinks ul li {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    list-style-type: none;
+}
+
+#quicklinks ul, #quicklinks li {
+    margin: 0;
+    padding: 0;
+}
+
+#quicklinks li {
+    padding: 8px 10px 8px 14px;
+}
+
+h4 {
+    font: bold Verdana,sans-serif;
+}
+
+h4{
+	font-size: 11px;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+

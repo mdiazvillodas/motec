@@ -93,6 +93,17 @@
 		    <div id="overlap" class="slideshow">
 			    <img src="img/slide/1.jpg" alt="1">
 		    </div>
+		    <div id="quicklinks">
+			<h3>
+			    <span>Acceso Rápido</span>
+			</h3>
+			<ul>
+			    <li>
+				<h4>¿Por qué elegir MoTec?</h4>
+				<p>Los principales beneficios del uso de un sistema MoTeC y lo que usted debe saber antes de comprar.</p>
+			    </li>
+			</ul>
+		    </div>
 		</div>
 	    </div>
 	</div>
