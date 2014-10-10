@@ -333,14 +333,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 10px;
 }
 
-.slider .mask #float .sec h2{
+.slider .mask #float .sec h2, #change h2{
 	font-size: 12px;
 	color: blue;
 }
 
 
 
-.slider .mask #float .sec h1 {
+.slider .mask #float .sec h1, #change h1 {
     background: none repeat scroll 0 0 #eee;
     font-size: 15px;
     margin: 10px 0 0;
@@ -353,10 +353,58 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: pointer;
 }
 
+.border{
+	border:1px solid #000;
+	margin-top:10px;
+	padding: 10px;
+}
+
+#change p{
+	font-size: 11px;
+	line-height: 14px;
+}
+
+#change li{
+	font-size: 11px;
+	margin-bottom:4px;
+}
+
 #change h3 {
     background-image: url("../img/products-heading-bg.png");
     background-position: left center;
     background-repeat: no-repeat;
     color: #000;
     padding-left: 12px;
+}
+
+#change .sec h3{
+	font-size: 11px;
+	font-weight: bold;
+	background: transparent;
+}
+
+/*			TABLA			*/
+div.articlecontent table, div.articlecontent table td, div.articlecontent table th, body.mceContentBody table, body.mceContentBody table td, body.mceContentBody table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0 3px;
+}
+
+
+
+.bgdarkgrey {
+    background-color: #bfbfbf;
+}
+
+div.articlecontent table, div.articlecontent table td, div.articlecontent table th, body.mceContentBody table, body.mceContentBody table td, body.mceContentBody table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0 3px;
+}
+
+div.articlecontent table td p {
+    margin-bottom: 3px;
+    padding-top: 3px;
 }
