@@ -317,12 +317,13 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	width:580px;
 	border: 1px solid #000;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto; 
 	height: 100%;
 }
 
 .slider .mask #float{
-	width: 2900px;
+	width: 4900px;
 	position: absolute;
 	left: 0;
 }
@@ -330,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 .slider .mask #float .sec{
 	float: left;
 	width:580px;
-	padding: 10px;
+	padding: 10px 30px 10px 10px;
 }
 
 .slider .mask #float .sec h2, #change h2{
@@ -389,6 +390,7 @@ div.articlecontent table, div.articlecontent table td, div.articlecontent table 
     border-collapse: collapse;
     margin: 0;
     padding: 0 3px;
+    font-size: 11px;
 }
 
 
@@ -404,7 +406,49 @@ div.articlecontent table, div.articlecontent table td, div.articlecontent table 
     padding: 0 3px;
 }
 
+.bgblue {
+    background: #0070c0;
+    color: white;
+}
+
+.bglightblue {
+    background-color: #c6d9f1;
+}
+
 div.articlecontent table td p {
     margin-bottom: 3px;
     padding-top: 3px;
+}
+
+.documentgroup table caption {
+    font-size:11px;
+    font-weight: bold;
+    margin: 0;
+    padding: 3px 0;
+    text-align: left;
+}
+tr a{
+	color: red;
+}
+
+.likelinkm400{
+	float: left;
+	width:100%;
+	font-size: 11px;
+	height: 30px;
+	line-height: 30px;
+	color: blue;
+}
+
+.documentgroup table thead {
+    background: none repeat scroll 0 0 #f6f6f6;
+    font-weight: bold;
+}
+
+.documentgroup table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 11px;
 }

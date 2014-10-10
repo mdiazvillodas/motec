@@ -21,7 +21,7 @@
   });
 </script>
 <div id="m1-series-ecus">
-  <h3>Desarrollo M1</h3>
+  <h3>M1 - Versatil</h3>
   <img src="./img/productos/m1-package-versatile.jpg"/>
   <div class="slider">
     <div class="tabs">

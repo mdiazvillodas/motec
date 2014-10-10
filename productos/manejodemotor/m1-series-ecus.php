@@ -77,7 +77,7 @@
 	  <ul class="likelink">
 	    <li onclick="openLinkSimple('./productos/manejodemotor/m1-package-versatile.php','change');var vrs = document.getElements('.content ul .vrs');itemaccordion.removeClass('active');vrs.addClass('active');">GPA  (Versatile Package)<br></li>
 	    <li onclick="openLinkSimple('./productos/manejodemotor/m1-package-versatile.php','change');var vrs = document.getElements('.content ul .vrs');itemaccordion.removeClass('active');vrs.addClass('active');">GPR  (Versatile Package - Race)</li>
-	    <li onclick="openLinkSimple('./productos/manejodemotor/m1-package-yoyota-86.php','change');var toy = document.getElements('.content ul .toy');itemaccordion.removeClass('active');toy.addClass('active');">Toyota 86, Subaru BRZ, Scion FRS</li>
+	    <li onclick="openLinkSimple('./productos/manejodemotor/m1-package-toyota-86.php','change');var toy = document.getElements('.content ul .toy');itemaccordion.removeClass('active');toy.addClass('active');">Toyota 86, Subaru BRZ, Scion FRS</li>
 	    <li onclick="openLinkSimple('./productos/manejodemotor/m1-package-fia-rallycross.php','change');var frc = document.getElements('.content ul .frc');itemaccordion.removeClass('active');frc.addClass('active');">FIA Rallycross<br></li>
 	  </ul>   
 	</div>
