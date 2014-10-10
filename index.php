@@ -87,9 +87,12 @@
 				</li>
 			    </ul>
 			</li>
+			<li onclick="openLinkSimple('./productos/productos.php','contenido');" class="item">
+			    <span>Productos</span>
+			</li>
 		    </ul>
 		</div>
-		<div class="main">
+		<div id="contenido" class="main">
 		    <div id="overlap" class="slideshow">
 			    <img src="img/slide/1.jpg" alt="1">
 		    </div>
