@@ -19,38 +19,30 @@
  slider.start('left','-1740px');
  });
 
- $('5').addEvent('click', function(){
- slider.start('left','-2320px');
- });
-
   
  
  
   });
 </script>
-<div id="m400">
-  <h3>m400</h3>
-  <img src="./img/productos/m400.jpg"/>
+<div id="m800">
+  <h3>m800</h3>
+  <img src="./img/productos/about-data-acquisition.jpg"/>
   <div class="slider">
     <div class="tabs">
-      <div id="1" class="first-child tabItem active">Vista General</div>
-      <div id="2" class="tabItem">Modelo</div>
-      <div id="3" class="tabItem">Comparación</div>
-      <div id="4" class="tabItem">Como elegir</div>
-      <div id="5" class="tabItem">Tecnología</div>
+      <div id="1" class="first-child tabItem active">Gral.</div> 
+      <div id="2" class="tabItem">Lambda</div>  
+      <div id="3" class="tabItem">Temperatura</div>
+      <div id="4" class="tabItem">Presión</div>
     </div>
     <div class="mask">
       <div id="float">
 	<div class="sec">
-      </div>
+	</div>
 	<div class="sec">
 	</div>
 	<div class="sec">
-	  
 	</div>
 	<div class="sec">
-	  
-	</div>
 	</div>
       </div>
     </div>

@@ -1,0 +1,84 @@
+/* UDMv4.5 */
+/***************************************************************\
+
+  ULTIMATE DROP DOWN MENU Version 4.5 by Brothercake
+  http://www.udm4.com/
+
+  This script may not be used or distributed without license
+
+\***************************************************************/
+
+/***************************************************************/
+/* Generated CSS - do not edit this directly                   */
+/***************************************************************/
+
+.udm,.udm li,.udm ul{margin:0;padding:0;list-style-type:none;}
+.udm{position:relative;;left:0;top:0;z-index:20000;width:100px;cursor:default !important;border:none;text-align:left;}
+.udm{background-image:none;background-color:none;float:none;width:100%;}
+@media screen,projection{.udm{float:left;}}
+.udm{margin-top:0px;}
+.udm>li:first-child{margin-left:0px;}
+@media Screen,Projection{.udm>li:first-child{margin-left:0;margin-right:0;}}
+.udm li{left:0px;}
+@media screen,projection{.udm li{position:relative;}}
+.udm ul li{left:0;}
+:root ul[class^="udm"] li{left:0;position:static;}
+@media Screen,Projection{:root ul[class^="udm"] li{left:0px;position:relative;}}
+@media Screen,Projection{.udm/**/[class="udm"]:not([class="xxx"]) ul li{position:relative;left:0;}}
+.udm li{display:block;width:auto;float:left;}
+.udm li a{position:static;display:block;float:left;white-space:nowrap;}
+@media screen,projection{.udm l\i a{position:relative;float:none;}}
+ul[class^="udm"] li a{position:relative;float:none;}
+@media screen,projection{* html .udm li a{position:relative;float:none;}}
+.udm ul li a{position:relative;float:none !important;white-space:normal;}
+.udm li,.udm li:first-child{margin-right:0px;}
+.udm ul li{margin-left:0;margin-right:0;}
+.udm li a{margin-bottom:0px;}
+.udm ul li a{margin-bottom:0;}
+ul[class^="udm"]:not([class="xxx"]) li a{margin-bottom:0;}
+ul[class^="udm"]:not([class="xxx"]) li{margin-bottom:0px;}
+ul[class^="udm"]:not([class="xxx"]) ul li{margin-bottom:0;}
+.udm ul a{margin:0;}
+.udm ul li{margin-bottom:0px !important;}
+.udm ul li:first-child{margin-top:0px;}
+.udm ul a{margin-top:0;margin-right:0px !important;margin-bottom:0;margin-left:0px !important;}
+.udm ul{background-image:none;background-color:#D9D9D9;cursor:default !important;width:150px;height:auto;border-width:1px;border-color:#555;border-style:solid solid none solid;position:absolute;z-index:20100;padding:0px;}
+.udm ul li{cursor:default !important;width:100%;position:static;float:none;}
+.udm ul{display:none;visibility:hidden;}
+html/**/[xmlns] .udm u\l{display:block;visibility:visible;height:0;overflow:scroll;left:-10000px;}
+@media screen,projection{* html .udm ul {display:block;visibility:visible;height:0;overflow:scroll;top:-10000px;}}
+ul.udm/**/[class^="udm"] u\l{display:block;visibility:visible;height:0;overflow:visible;left:-1000em;}
+.udm a .udmA{visibility:hidden;margin:0 0px;display:block;cursor:pointer !important;position:absolute;right:0;top:0;text-align:right;border:none;cursor:inherit !important;}
+.udm a .udmA img{display:block;}
+.udm ul a .udmA{margin:0 5px;}
+* html .udm a .udmA{right:1px;top:1px;}
+* html .udm ul a .udmA{right:1px;top:1px;}
+.udm a,.udm a:link,.udm a.nohref{background-image:none;background-color:;cursor:pointer !important;z-index:1000;text-align:left;border-style:solid solid none solid;border-color:#fff #dad9d8 #555555 #858381;padding-left:0px;padding-right:0px;padding-top:3px !important;padding-bottom:3px !important;text-decoration:none;color:#000;border-width:1px;font-style:normal;font-family:Verdana,sans-serif;font-weight:bold !important;}
+.udm a,.udm a.nohref{font-size:12px;}
+.udm a .udmA,.udm a:link .udmA,.udm a.nohref .udmA{font-family:Verdana,sans-serif;font-weight:bold !important;}
+.udm li a:visited{background-image:none;background-color:;border-width:1px;color:#000;font-style:normal;border-style:solid solid none solid;border-color:#fff #dad9d8 #555555 #858381;}
+.udm li a.udmR,.udm li a.udmY,.udm li a.udmR:visited,.udm li a.udmY:visited,.udm li a:hover,.udm li a:focus,.udm li a.nohref:hover,.udm li a.nohref:focus{font-style:normal;background-image:none;background-color:;text-decoration:none;color:#000;border-color:#fff #dad9d8 #555555 #858381;border-style:solid solid none solid;border-width:1px;text-decoration:underline;}
+* html .udm li a:active{font-style:normal;background-image:none;background-color:;text-decoration:none;color:#000;border-color:#fff #dad9d8 #555555 #858381;border-style:solid solid none solid;border-width:1px;text-decoration:underline;}
+.udm ul a,.udm ul a:link,.udm ul a.nohref{background-image:none;background-color:#D9D9D9;text-align:left;border-width:1px;border-style:solid none solid none;border-color:#dad9d8 #fff #858381 #fff;padding-left:5px;padding-right:5px;padding-top:px !important;padding-bottom:px !important;text-decoration:none;color:#000;font-style:normal;font-size:1em;font-family:tahoma,sans-serif;font-weight:normal !important;}
+.udm ul a .udmA,.udm ul a:link .udmA,.udm ul a.nohref .udmA{font-family:tahoma,sans-serif;font-weight:normal !important;}
+.udm ul li a:visited,* html .udm ul li a:visited{background-image:none;background-color:#D9D9D9;color:#000;font-style:normal;border-width:1px;border-style:solid none solid none;border-color:#dad9d8 #fff #858381 #fff;}
+.udm ul li a.udmR,.udm ul li a.udmY,.udm ul li a.udmR:visited,.udm ul li a.udmY:visited,.udm ul li a:hover,.udm ul li a:focus,.udm ul li a.nohref:hover,.udm ul li a.nohref:focus,.udm ul li a:visited:hover{font-style:normal;background-image:none;background-color:#292929;text-decoration:none;color:#fff;border-color:#292929 #fff #858381 #fff;border-style:solid none solid none;border-width:1px;}
+* html .udm ul li a:active{font-style:normal;background-image:none;background-color:#292929;text-decoration:none;color:#fff;border-color:#292929 #fff #858381 #fff;border-style:solid none solid none;border-width:1px;}
+.udm a.nohref,.udm ul a.nohref{cursor:default !important;}
+.udm h3,.udm h4,.udm h5,.udm h6{display:block;background:none;margin:0;padding:0;border:none;font-size:1em;font-weight:normal;text-decoration:none;}
+.udm h3,.udm h4,.udm h5,.udm h6{display:inline;}
+.udm h\3,.udm h\4,.udm h\5,.udm h\6{display:block;}
+ul[class^="udm"] h3,ul[class^="udm"] h4,ul[class^="udm"] h5,ul[class^="udm"] h6{display:block;}
+* html .udm h3,* html .udm h4,* html .udm h5,* html .udm h6{display:block;}
+* html .udm h3,* html .udm h4,* html .udm h5,* html .udm h6{width:expression("auto",this.runtimeStyle.width=this.parentNode.offsetWidth);width/**/:auto;}
+* html .udm ul h3,* html .udm ul h4,* html .udm ul h5,* html .udm ul h6{width:expression("auto",this.runtimeStyle.width=this.parentNode.currentStyle.width);width/**/:auto;}
+@media screen,projection{* html .udm li{display:inline;}}
+@media screen,projection{* html .udm li,* html .udm ul li{display/**/:block;float/**/:left;}}
+@media screen,projection{* html .udm li,* html .udm ul li{clear:none;}}
+ul[class$="udm"].udm li,ul[class$="udm"].udm ul li{display:block;float:left;}
+ul[class$="udm"].udm:not([class="xxx"]) li{float:left;}
+ul[class$="udm"].udm:not([class="xxx"]) ul li{float:none;}
+@media all and (min-width:0px){ul[class$="udm"].udm li{float:left;}}
+@media all and (min-width:0px){ul[class$="udm"].udm ul li{float:none;}}
+select{visibility:visible;}
+.udm .udmC{position:absolute;left:0;top:0;z-index:20020;width:auto;height:auto;filter:alpha(opacity=0);}

@@ -7,22 +7,6 @@
  slider.start('left','0px');
  });
   
- $('2').addEvent('click', function(){
- slider.start('left','-580px');
- });
-  
- $('3').addEvent('click', function(){
- slider.start('left','-1160px');
- });
-  
- $('4').addEvent('click', function(){
- slider.start('left','-1740px');
- });
-
- $('5').addEvent('click', function(){
- slider.start('left','-2320px');
- });
-
   
  
  
@@ -34,23 +18,23 @@
   <div class="slider">
     <div class="tabs">
       <div id="1" class="first-child tabItem active">Vista General</div>
-      <div id="2" class="tabItem">Modelo</div>
-      <div id="3" class="tabItem">Comparación</div>
-      <div id="4" class="tabItem">Como elegir</div>
-      <div id="5" class="tabItem">Tecnología</div>
     </div>
     <div class="mask">
       <div id="float">
 	<div class="sec">
+      <p>
+	Estos modelos son versiones totalmente de poliuretano-maceta de la M400, M600 y M800 ECUs. Con un diseño de clasificación IP67, que son de forma fiable a prueba de agua y pesan poco más de 900 gramos.
+      </p>
+      <p>
+Las nuevas versiones Marinos se adaptan específicamente para aplicaciones en entornos difíciles con el agua, la suciedad o la vibración, por ejemplo, en las PWC (Personal Water Craft), barcos y vehículos todo terreno.
+</p>
+      <p>
+Todas las funciones y mejoras serán las mismas que las centralitas 'cien serie estándar.
+</p>
+      <p>
+Para obtener especificaciones detalladas, consulte las páginas ECU estándar: M400 M400 para la Marina, M600 para el M600 y M800 Marine para el M800 Marine.
+      </p>
       </div>
-	<div class="sec">
-	</div>
-	<div class="sec">
-	  
-	</div>
-	<div class="sec">
-	  
-	</div>
 	</div>
       </div>
     </div>

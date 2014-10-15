@@ -20,7 +20,7 @@ itemaccordion.addEvent('click', function() {
 	  <div class="items">Info general</div>
 	    <div class="content">
 	    </div>
-	  <div class="items">Manejo de motor</div>
+	  <div class="items" onclick="openLinkSimple('./productos/manejodemotor/m1-series-ecus.php','change');">Manejo de motor</div>
 	    <div class="content">
 	      <ul>
 		    <li onclick="openLinkSimple('./productos/manejodemotor/m1-series-ecus.php','change');">M1 Series ECUs</li>
@@ -36,13 +36,43 @@ itemaccordion.addEvent('click', function() {
 		    <li onclick="openLinkSimple('./productos/manejodemotor/m400-plug-in-ecu-kit-pwc.php','change');">M400 Plug-In ECU Kit: PWC</li>
 		    <li onclick="openLinkSimple('./productos/manejodemotor/m400-plug-in-ecu-kit-snowmobile.php','change');">M400 Plug-In ECU Kit: Snowmobile</li>
 		    <li onclick="openLinkSimple('./productos/manejodemotor/m600.php','change');"class="m600">M600</li>
-		    <li onclick="openLinkSimple('./productos/manejodemotor/m800','change');"class="m800">M800</li>
+		    <li onclick="openLinkSimple('./productos/manejodemotor/m800.php','change');"class="m800">M800</li>
 		    <li onclick="openLinkSimple('./productos/manejodemotor/m800-plug-in-ecu-evo-wrx.php','change');" class="m800plugin">M800 Plug-In ECUs: EVO & WRX</li>
 		    <li onclick="openLinkSimple('./productos/manejodemotor/m880.php','change');"class="m880">M880</li>
 		    <li onclick="openLinkSimple('./productos/manejodemotor/marine-ecu.php','change');" class="marineecu">Marine ECUs</li>
 	      </ul>
 	    </div>
-	  <div class="items">Adquisición de Datos</div>
+	  <div class="items">Obtención de Datos</div>
+	    <div class="content">
+	      <ul>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/about-data-acquisition.php','change');">Acerca de</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/c185.php','change');">C185</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/c125.php','change');">C125</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/c125-race-logging-kit.php','change');">C125 Race Logging Kit</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/cdl3.php','change');">CDL3</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/cdl3-track-kits.php','change');">CDL3 Trak Kit</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/adl3.php','change');">ADL3</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/edl3.php','change');">EDL3</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/acl.php','change');">ACL</li>
+		  <li onclick="openLinkSimple('./productos/obtenciondedatos/accident-data.php','change');">Datos de Accidente</li>
+	      </ul>
+	    </div>
+	  <div class="items">Displays</div>
+	    <div class="content">
+	      <ul>
+		  <li>M1 Series ECUs</li>
+		  <li>M1 Series ECUs</li>
+		  <li>M1 Series ECUs</li>
+		    <ul>
+			<li>asd</li>
+		    </ul>
+		  <li>M1 Series ECUs</li>
+		  <li>M1 Series ECUs</li>
+		  <li>M1 Series ECUs</li>
+		  <li>M1 Series ECUs</li>
+	      </ul>
+	    </div>
+	  <div class="items">Análisis de datos</div>
 	    <div class="content">
 	      <ul>
 		  <li>M1 Series ECUs</li>
@@ -54,7 +84,7 @@ itemaccordion.addEvent('click', function() {
 		  <li>M1 Series ECUs</li>
 	      </ul>
 	    </div>
-	  <div class="items">Adquisición de Datos</div>
+	  <div class="items">Video</div>
 	    <div class="content">
 	      <ul>
 		  <li>M1 Series ECUs</li>
@@ -66,7 +96,7 @@ itemaccordion.addEvent('click', function() {
 		  <li>M1 Series ECUs</li>
 	      </ul>
 	    </div>
-	  <div class="items">Adquisición de Datos</div>
+	  <div class="items">Distribución de Energía</div>
 	    <div class="content">
 	      <ul>
 		  <li>M1 Series ECUs</li>
@@ -78,7 +108,7 @@ itemaccordion.addEvent('click', function() {
 		  <li>M1 Series ECUs</li>
 	      </ul>
 	    </div>
-	  <div class="items">Adquisición de Datos</div>
+	  <div class="items">Teclados</div>
 	    <div class="content">
 	      <ul>
 		  <li>M1 Series ECUs</li>
@@ -90,7 +120,24 @@ itemaccordion.addEvent('click', function() {
 		  <li>M1 Series ECUs</li>
 	      </ul>
 	    </div>
-	  <div class="items">Adquisición de Datos</div>
+	  <div class="items" onclick="openLinkSimple('./productos/accesorios/about-accesories.php','change');">Accesorios</div>
+	    <div class="content">
+	      <ul>
+		  <li onclick="openLinkSimple('./productos/accesorios/about-accesories.php','change');">Acerca de</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/sensors.php','change');">Sensores</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/fuel-delivery.php','change');">Entrega de combustible</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/ignition-systems.php','change');">Sistemas de encendido</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/actuator.php','change');">Transmisor de Fuerza</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/communication-cables.php','change');">Cables de comunicación</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/expanders.php','change');">Expansores</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/lap-timing.php','change');">Tiempo de vuelta</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/lights.php','change');">Luces</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/telemetry.php','change');">Telemetría</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/gps-units.php','change');">Unidades GPS</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/knock-control.php','change');">Control de golpe</li>
+	      </ul>
+	    </div>
+	  <div class="items">Alambres</div>
 	    <div class="content">
 	      <ul>
 		  <li>M1 Series ECUs</li>
