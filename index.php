@@ -1,9 +1,12 @@
-﻿<html>
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
     <head>
         <title>Motec Latinoamérica</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>	
-	<link rel="shortcut icon" href="favicon.ico">	      
+	<link rel="shortcut icon" href="favicon.ico">
+	    <meta http-equiv=”Content-Type” content=”text/html; charset=CHARSET” />
 	<script type="text/javascript" src="./js/mootools.js"></script>
 	<script type="text/javascript" src="./js/mootools-more.js"></script>
 	<script type="text/javascript" src="./js/MooDropMenu.js"></script>

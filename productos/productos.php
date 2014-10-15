@@ -1,4 +1,7 @@
-﻿<script type="text/javascript">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+	    <meta http-equiv=”Content-Type” content=”text/html; charset=CHARSET” />
+<script type="text/javascript">
 window.addEvent('domready', function(){
   new Fx.Accordion($('accordion'), '#accordion .items', '#accordion .content');
   number:-1;
@@ -42,7 +45,7 @@ itemaccordion.addEvent('click', function() {
 		    <li onclick="openLinkSimple('./productos/manejodemotor/marine-ecu.php','change');" class="marineecu">Marine ECUs</li>
 	      </ul>
 	    </div>
-	  <div class="items">Obtención de Datos</div>
+	  <div onclick="openLinkSimple('./productos/obtenciondedatos/about-data-acquisition.php','change');" class="items">Obtención de Datos</div>
 	    <div class="content">
 	      <ul>
 		  <li onclick="openLinkSimple('./productos/obtenciondedatos/about-data-acquisition.php','change');">Acerca de</li>
@@ -57,19 +60,17 @@ itemaccordion.addEvent('click', function() {
 		  <li onclick="openLinkSimple('./productos/obtenciondedatos/accident-data.php','change');">Datos de Accidente</li>
 	      </ul>
 	    </div>
-	  <div class="items">Displays</div>
+	  <div  onclick="openLinkSimple('./productos/displays/about-displays.php','change');" class="items">Displays</div>
 	    <div class="content">
 	      <ul>
-		  <li>M1 Series ECUs</li>
-		  <li>M1 Series ECUs</li>
-		  <li>M1 Series ECUs</li>
-		    <ul>
-			<li>asd</li>
-		    </ul>
-		  <li>M1 Series ECUs</li>
-		  <li>M1 Series ECUs</li>
-		  <li>M1 Series ECUs</li>
-		  <li>M1 Series ECUs</li>
+		  <li onclick="openLinkSimple('./productos/displays/about-displays.php','change');">Acerca de</li>
+		  <li onclick="openLinkSimple('./productos/displays/display-creator.php','change');">Display Creator</li>
+		  <li onclick="openLinkSimple('./productos/displays/c125.php','change');">C125</li>
+		  <li onclick="openLinkSimple('./productos/displays/c125-race-display-kit.php','change');">C125 Race Display Kit</li>
+		  <li onclick="openLinkSimple('./productos/displays/d153.php','change');">D153</li>
+		  <li onclick="openLinkSimple('./productos/displays/d176.php','change');">D175</li>
+		  <li onclick="openLinkSimple('./productos/displays/cdl3.php','change');">CDL3</li>
+		  <li onclick="openLinkSimple('./productos/displays/cdl3-track-kits.php','change');">CDL3 Track Kits</li>
 	      </ul>
 	    </div>
 	  <div class="items">Análisis de datos</div>
@@ -134,7 +135,7 @@ itemaccordion.addEvent('click', function() {
 		  <li onclick="openLinkSimple('./productos/accesorios/lights.php','change');">Luces</li>
 		  <li onclick="openLinkSimple('./productos/accesorios/telemetry.php','change');">Telemetría</li>
 		  <li onclick="openLinkSimple('./productos/accesorios/gps-units.php','change');">Unidades GPS</li>
-		  <li onclick="openLinkSimple('./productos/accesorios/knock-control.php','change');">Control de golpe</li>
+		  <li onclick="openLinkSimple('./productos/accesorios/knock-control.php','change');">Datos de Accidente</li>
 	      </ul>
 	    </div>
 	  <div class="items">Alambres</div>

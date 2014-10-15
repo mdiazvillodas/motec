@@ -302,6 +302,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+#sensores .slider .tabs .tabItem{
+	padding:0 7px;
+	font-size:11px;
+}
+
 .slider .tabs .first-child{
 	border-left:1px solid #000;
 }
@@ -319,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid #000;
 	overflow-x: hidden;
 	overflow-y: auto; 
-	height: 100%;
+	height: 2000px;
 }
 
 .slider .mask #float{

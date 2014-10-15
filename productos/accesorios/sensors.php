@@ -48,9 +48,9 @@
       <div id="2" class="tabItem">Lambda</div>  
       <div id="3" class="tabItem">Temp</div>
       <div id="4" class="tabItem">Presión</div>
-      <div id="5" class="tabItem">Crank y Cam</div>
+      <div id="5" class="tabItem">Crank, Cam y Velocidad</div>
       <div id="6" class="tabItem">Posición</div>
-      <div id="7" class="tabItem"><acronym title="Fuerza y Movimiento">F y M</acronym></div>
+      <div id="7" class="tabItem">Fuerza y Movimiento</div>
       <div id="8" class="tabItem">Switches</div>
     </div>
     <div class="mask">

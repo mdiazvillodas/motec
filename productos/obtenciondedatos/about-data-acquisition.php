@@ -1,4 +1,7 @@
-﻿<script type="text/javascript">
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+	    <meta http-equiv=”Content-Type” content=”text/html; charset=CHARSET” />
+<script type="text/javascript">
   var slider;
   window.addEvent('domready', function(){
  slider = new Fx.Tween(('float'), {duration: 250,link: 'chain',transition: Fx.Transitions.Circ.easeOut});
