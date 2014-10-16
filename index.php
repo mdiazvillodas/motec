@@ -6,11 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>	
 	<link rel="shortcut icon" href="favicon.ico">
-<<<<<<< Updated upstream
+
 	    <meta http-equiv="Content-Type" content="text/html" charset="CHARSET” />
-=======
-	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />   
->>>>>>> Stashed changes
+
 	<script type="text/javascript" src="./js/mootools.js"></script>
 	<script type="text/javascript" src="./js/mootools-more.js"></script>
 	<script type="text/javascript" src="./js/MooDropMenu.js"></script>
