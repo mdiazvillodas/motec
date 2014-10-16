@@ -153,6 +153,5 @@ itemaccordion.addEvent('click', function() {
 	</div>
     </div>
     <div id="change">
-
     </div>
 </div>

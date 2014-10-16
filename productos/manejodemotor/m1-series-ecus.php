@@ -1,4 +1,4 @@
-﻿<script type="text/javascript">
+<script type="text/javascript">
   var slider;
   window.addEvent('domready', function(){
  slider = new Fx.Tween(('float'), {duration: 250,link: 'chain',transition: Fx.Transitions.Circ.easeOut});

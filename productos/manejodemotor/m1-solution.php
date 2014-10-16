@@ -1,4 +1,4 @@
-﻿<div class="border" id="m1-solution">
+<div class="border" id="m1-solution">
     <img src="./img/productos/m1-solution.jpg" alt="m130 seadoo">
         <h1>M130 Sea-Doo&reg; RXT-X 2010 PLUG-IN <acronym title="Engine Control Unit">ECU</acronym> kit<br></h1>
         <h2><strong>Compatibilty<br></strong></h2>
@@ -27,6 +27,6 @@
         <h2><strong>Opciones de actualización</strong></h2>
         <ul>
             <li>Nivel de registro de datos 2</li>
-            <li>Pro Analisis</li>
+            <li>Pro Análisis</li>
         </ul>
 </div>

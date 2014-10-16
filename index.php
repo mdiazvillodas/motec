@@ -1,12 +1,16 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
     <head>
-        <title>Motec Latinoamérica</title>
+        <title>Motec Latinoam?rica</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>	
 	<link rel="shortcut icon" href="favicon.ico">
+<<<<<<< Updated upstream
 	    <meta http-equiv="Content-Type" content="text/html" charset="CHARSET” />
+=======
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />   
+>>>>>>> Stashed changes
 	<script type="text/javascript" src="./js/mootools.js"></script>
 	<script type="text/javascript" src="./js/mootools-more.js"></script>
 	<script type="text/javascript" src="./js/MooDropMenu.js"></script>
@@ -27,7 +31,6 @@
 	</script>
 	<script type="text/javascript">
 	window.addEvent('domready',function(){
-	
 		$('nav').MooDropMenu({
 			onOpen: function(el){
 				el.fade('in')
@@ -39,15 +42,12 @@
 				el.fade('hide').set('tween', {duration:500});
 			}
 		});
-	
 	});
 	</script>
 	<script>
 		window.addEvent('domready', function(){
 			var data = { '1.jpg': { caption: '1' }, '2.jpg': { caption: '2' }, '3.jpg': { caption: '3' }, '4.jpg': { caption: '4' }};
-
 			new Slideshow('overlap', data, { captions: { delay: 1000 }, delay: 3000, height: 270, hu: 'img/slide/', width: 800 });
-
 		});
 	</script>
     </head>
