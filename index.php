@@ -99,11 +99,11 @@
 		    </div>
 		    <div id="quicklinks">
 			<h3>
-			    <span>Acceso RÃ¡pido</span>
+			    <span>Acceso Rápido</span>
 			</h3>
 			<ul>
 			    <li>
-				<h4>Â¿Por quÃ© elegir MoTec?</h4>
+				<h4>?Por qué elegir MoTec?</h4>
 				<p>Los principales beneficios del uso de un sistema MoTeC y lo que usted debe saber antes de comprar.</p>
 			    </li>
 			</ul>
